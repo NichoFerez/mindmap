@@ -56,11 +56,11 @@ position:absolute;
   margin-left:200px;
   margin-right:200px;
   display:grid;
+  width:1500px;
+  height:500px;
   flex-direction:row;
   justify-content:space-around;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 300px;
-  grid-gap:5px;
+
   
 
 }
@@ -68,7 +68,7 @@ position:absolute;
 .boxone{
   animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  left: 60px;
+  left: 150px;
   bottom: 0;
 }
 
@@ -154,7 +154,7 @@ font-family:'Didact Gothic', sans-serif;
 .boxtwo{
 animation: MoveUpDown 4s linear infinite;
   position: absolute;
-  left: 190px;
+  left: 280px;
   bottom: 0;
 
 }
@@ -238,7 +238,7 @@ margin-top:5px;
 .boxthree{
   animation: MoveUpDown 5s linear infinite;
   position: absolute;
-  left: 320px;
+  left: 410px;
   bottom: 0;
 
 }
@@ -327,7 +327,7 @@ font-family:'Didact Gothic', sans-serif;
 .boxfour{
 animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  left: 450px;
+  left: 540px;
   bottom: 0;
  
 
@@ -415,7 +415,7 @@ margin-top:5px;
 .boxfive{
       animation: MoveUpDown 4s linear infinite;
   position: absolute;
-  left: 580px;
+  left: 670px;
   bottom: 0;
 
 }
@@ -500,7 +500,7 @@ font-family:'Didact Gothic', sans-serif;
 .boxsix{
       animation: MoveUpDown 5s linear infinite;
   position: absolute;
-  left: 710px;
+  left: 800px;
   bottom: 0;
 
 }
@@ -589,7 +589,7 @@ color:black;
 .boxseven{
         animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  left: 840px;
+  left: 930px;
   bottom: 0;
 
 }
@@ -679,7 +679,7 @@ color:black;
 .boxeight{
         animation: MoveUpDown 4s linear infinite;
   position: absolute;
-  left: 970px;
+  left: 1060px;
   bottom: 0;
 
 }
@@ -775,7 +775,7 @@ margin-top:5px;
 .boxnine{
         animation: MoveUpDown 5s linear infinite;
   position: absolute;
-  left: 1100px;
+  left: 1190px;
   bottom: 0;
 
 }
@@ -863,7 +863,7 @@ margin-top:5px;
 .boxten{
            animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  left: 1230px;
+  left: 1320px;
   bottom: 0;
 
 }
@@ -958,7 +958,7 @@ margin-top:5px;
 .boxeleven{
             animation: MoveUpDown 4s linear infinite;
   position: absolute;
-  left: 1360px;
+  left: 1450px;
   bottom: 0;
 
 }
@@ -1043,22 +1043,7 @@ margin-top:5px;
   }
 }
 
-.boxtwelve{
 
-           animation: MoveUpDown 5s linear infinite;
-  position: absolute;
-  left: 1490px;
-  bottom: 0;
-}
-
-@keyframes MoveUpDown {
-  100%, 0% {
-    bottom: 230px;
-  }
-  50% {
-    bottom: 530px;
-  }
-}
 
 .l{
    width: 100px;
@@ -1086,47 +1071,7 @@ grid-row-start: 2;
   to {border-color: #c0ff00;}
 }
 
-
-
-.letter12{
-margin-left:5px;
-margin-top:5px;
-      border-radius:50%;
-      grid-column-start: 1;
-  grid-column-end:1;
-   text-align:center;
-   color:transparent ;
- font-size:28px;
-
-
-}
-
-.letter12:hover{
-  width: 90px;
-      height: 90px;
-      background-color: white;
-      opacity:50%;
-margin-left:5px;
-margin-top:5px;
-color:black;
-      border-radius:50%;
-      font-family:'Didact Gothic', sans-serif;
-      grid-column-start: 1;
-  grid-column-end:1;
-   text-align:center;
- font-size:28px;
-  -webkit-animation: fadeIn ease .7s;
-
-
-}
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  50% {
-    opacity:.5;
-  }
-}
+=
 
 
 
