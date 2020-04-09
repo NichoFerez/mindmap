@@ -1,7 +1,7 @@
 body{
   background-image: url("brain.gif");
 background-repeat:no-repeat;
-height:862px;
+height:950px;
 
 background-size:cover;
 background-size:106%;
@@ -9,6 +9,16 @@ background-position:left top;
 border:6px inset;
 border-color:#c0ff00;
 
+}
+
+a{
+    text-decoration:none;
+  color:white;
+}
+
+a:hover{
+  color:magenta;
+  text-decoration:none;
 }
 
 #menu{
@@ -63,25 +73,13 @@ width:330px;
 
 }
 
-.next{
-  color:white;
-  font-size:70px;
-  margin-left:1053px;
- font-family: 'Nunito', sans-serif;
-  z-index:3;
-  position:relative;
-}
-
-.next:hover{
-  color:magenta;
-
-}
 
 .last{
   color:white;
   font-size:70px;
   font-family: 'Nunito', sans-serif;
-  margin-left:170px;
+  margin-left:300px;
+  margin-top:30px;
 }
 
 .last:hover{

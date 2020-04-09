@@ -1,7 +1,7 @@
 body{
   background-image: url("brain.gif");
 background-repeat:no-repeat;
-height:862px;
+height:950px;
 
 background-size:cover;
 background-size:106%;
@@ -76,10 +76,11 @@ width:330px;
 .next{
   color:white;
   font-size:70px;
-  margin-left:1053px;
+  margin-left:835px;
  font-family: 'Nunito', sans-serif;
   z-index:3;
   position:relative;
+  margin-top:30px;
 }
 
 .next:hover{
@@ -91,7 +92,8 @@ width:330px;
   color:white;
   font-size:70px;
   font-family: 'Nunito', sans-serif;
-  margin-left:170px;
+  margin-left:300px;
+  margin-top:30px;
 }
 
 .last:hover{
