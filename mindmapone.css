@@ -8,6 +8,49 @@ background-position:left top;
 
 }
 
+#menu{
+  display:flex;
+  flex-direction:row;
+  grid-row-gap:1200px;
+  z-index:2;
+}
+
+.search{
+width: 700px;
+height: 200px;
+border-radius: 70% 70% 0 0 / 70% 70% 0 0;
+background-color:white;
+transform: rotate(180deg);
+margin-left:480px;
+position:absolute;
+
+}
+
+.next{
+  color:white;
+  font-size:70px;
+  margin-left:1080px;
+  font-family:'Didact Gothic', sans-serif;
+  z-index:3;
+  position:relative;
+}
+
+.next:hover{
+  color:#020082;
+
+}
+
+.last{
+  color:white;
+  font-size:70px;
+  font-family:'Didact Gothic', sans-serif;
+  margin-left:180px;
+}
+
+.last:hover{
+  color:magenta;
+
+}
 
 .boxone{
 animation: MoveUpDown 3s linear infinite;
