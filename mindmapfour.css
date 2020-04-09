@@ -28,8 +28,8 @@ position:absolute;
 .next{
   color:white;
   font-size:70px;
-  margin-left:1080px;
-  font-family:'Didact Gothic', sans-serif;
+  margin-left:1053px;
+ font-family: 'Nunito', sans-serif;
   z-index:3;
   position:relative;
 }
@@ -42,15 +42,14 @@ position:absolute;
 .last{
   color:white;
   font-size:70px;
-  font-family:'Didact Gothic', sans-serif;
-  margin-left:180px;
+  font-family: 'Nunito', sans-serif;
+  margin-left:170px;
 }
 
 .last:hover{
   color:magenta;
 
 }
-
 
 #grandpa{
   margin-top:100px;
