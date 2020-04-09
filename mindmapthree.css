@@ -1,18 +1,33 @@
 body{
-	background-image: url("brain.gif");
+  background-image: url("brain.gif");
 background-repeat:no-repeat;
+height:862px;
 
 background-size:cover;
 background-size:106%;
 background-position:left top;
+border:6px inset;
+border-color:#c0ff00;
 
 }
+
+a{
+    text-decoration:none;
+  color:white;
+}
+
+a:hover{
+  color:magenta;
+  text-decoration:none;
+}
+
 #menu{
   display:flex;
   flex-direction:row;
   grid-row-gap:1200px;
   z-index:2;
 }
+
 
 .search{
 width: 700px;
@@ -22,6 +37,39 @@ background-color:white;
 transform: rotate(180deg);
 margin-left:480px;
 position:absolute;
+display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows:109px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:1;
+  grid-column-end:1;
+
+
+}
+.search:hover{
+animation-name:search;
+  animation-duration:.4s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes search{
+  from{background-color:white;}
+  to{background-color:#c0ff00;}
+}
+
+.input {
+  transform:rotate(180deg);
+  display:grid;
+width:330px;
+  margin-left:90px;
+  position:relative;
+  grid-row-start:1;
+  grid-row-end:2;
+  grid-column-start:1;
+  grid-column-end:1;
 
 }
 
@@ -35,7 +83,7 @@ position:absolute;
 }
 
 .next:hover{
-  color:#020082;
+  color:magenta;
 
 }
 
@@ -51,6 +99,20 @@ position:absolute;
 
 }
 
+#grandpa{
+  margin-top:300px;
+  margin-left:200px;
+  margin-right:200px;
+  display:grid;
+  flex-direction:row;
+  justify-content:space-around;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 300px;
+  grid-gap:5px;
+  height:120px;
+  
+
+}
 
 .boxone{
   animation: MoveUpDown 3s linear infinite;
